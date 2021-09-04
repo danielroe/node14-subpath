@@ -1,0 +1,13 @@
+{
+  "name": "node14-subpath",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "imports": {
+    "#test-import": "./test.mjs"
+  },
+  "volta": {
+    "node": "14.17.5"
+  }
+}
